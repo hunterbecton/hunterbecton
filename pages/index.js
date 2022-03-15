@@ -3,7 +3,7 @@ import { About, MainLayout, Container, PortfolioSection } from 'components';
 export default function Home() {
   return (
     <MainLayout>
-      <Container padding='py-28'>
+      <Container padding='py-0 sm:py-12 lg:py-28'>
         <About />
         <PortfolioSection
           title='LeapPage'
