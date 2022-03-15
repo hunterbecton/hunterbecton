@@ -1,8 +1,27 @@
+import { useEffect } from 'react';
 import { DefaultSeo } from 'next-seo';
+import Router, { useRouter } from 'next/router';
+import * as Fathom from 'fathom-client';
 
-import '../styles/globals.css';
+import 'styles/globals.css';
+
+// Record a pageview when route changes
+Router.events.on('routeChangeComplete', () => {
+  Fathom.trackPageview();
+});
 
 function MyApp({ Component, pageProps }) {
+  // Initialize Fathom when the app loads
+  useEffect(() => {
+    if (process.env.NODE_ENV === 'production') {
+      Fathom.load('OZYQRSVC', {
+        url: 'https://admire-creative.hunterbecton.com/script.js',
+        includedDomains: ['hunterbecton.com', 'www.hunterbecton.com'],
+      });
+      Fathom.trackPageview();
+    }
+  }, []);
+
   return (
     <>
       <DefaultSeo
