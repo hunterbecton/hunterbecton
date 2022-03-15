@@ -11,7 +11,7 @@ import {
 
 export const About = () => {
   return (
-    <section className='about relative grid w-full grid-cols-7 gap-4 bg-zinc-800 p-20'>
+    <section className='about relative grid w-full grid-cols-7 gap-4 bg-zinc-800 p-10 lg:p-20'>
       <NameTitle />
       <ColumnThree>
         <ColumnTitle>About</ColumnTitle>

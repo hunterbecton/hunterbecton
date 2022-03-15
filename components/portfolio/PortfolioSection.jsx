@@ -22,7 +22,7 @@ export const PortfolioSection = ({
   return (
     <section className={`${selectClass} bg-zinc-800`}>
       <div
-        className={`${bgColor} flex w-full justify-between pt-12 pl-12 pr-12`}
+        className={`${bgColor} flex w-full justify-between pt-10 pl-10 pr-10 lg:pt-20 lg:pl-20 lg:pr-20`}
       >
         <h3 className='mb-1 self-end font-serif text-3xl text-zinc-50 sm:text-4xl md:mb-2 lg:text-5xl'>
           {title}
@@ -39,7 +39,7 @@ export const PortfolioSection = ({
           </div>
         </div>
       </div>
-      <div className='relative grid w-full grid-cols-7 gap-4 bg-zinc-800 p-20'>
+      <div className='relative grid w-full grid-cols-7 gap-4 bg-zinc-800 p-10 lg:p-20'>
         <ColumnThree>
           <ColumnTitle>Description</ColumnTitle>
           <ColumnText>{description}</ColumnText>
