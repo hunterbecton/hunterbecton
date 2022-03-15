@@ -1,16 +1,63 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.about ::-moz-selection {
+  color: #78350f;
+  background: #fef08a;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.about ::selection {
+  color: #78350f;
+  background: #fef08a;
 }
 
-* {
-  box-sizing: border-box;
+.leappage ::-moz-selection {
+  color: #1e3a8a;
+  background: #bfdbfe;
+}
+
+.leappage ::selection {
+  color: #1e3a8a;
+  background: #bfdbfe;
+}
+
+.mattermix ::-moz-selection {
+  color: #312e81;
+  background: #c7d2fe;
+}
+
+.mattermix ::selection {
+  color: #312e81;
+  background: #c7d2fe;
+}
+
+.skillthrive ::-moz-selection {
+  color: #0e3822;
+  background: #ace4c7;
+}
+
+.skillthrive ::selection {
+  color: #0e3822;
+  background: #ace4c7;
+}
+
+.wham ::-moz-selection {
+  color: #4c0f24;
+  background: #ffd6e4;
+}
+
+.wham ::selection {
+  color: #4c0f24;
+  background: #ffd6e4;
+}
+
+.dog ::-moz-selection {
+  color: #331914;
+  background: #ffe5e0;
+}
+
+.dog ::selection {
+  color: #331914;
+  background: #ffe5e0;
 }
