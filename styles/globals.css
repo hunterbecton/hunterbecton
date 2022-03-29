@@ -12,6 +12,16 @@
   background: #fef08a;
 }
 
+.latestlink ::-moz-selection {
+  color: #064e3b;
+  background: #a7f3d0;
+}
+
+.latestlink ::selection {
+  color: #064e3b;
+  background: #a7f3d0;
+}
+
 .leappage ::-moz-selection {
   color: #1e3a8a;
   background: #bfdbfe;

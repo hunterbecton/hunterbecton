@@ -6,6 +6,26 @@ export default function Home() {
       <Container padding='py-0 sm:py-12 lg:py-28'>
         <About />
         <PortfolioSection
+          title='latest.link'
+          bgColor='bg-[#10b981]'
+          selectClass='latestlink'
+          img='/latest-link-logo.png'
+          description={`latest.link is a short link generator for creating links that automatically redirect users to their latest content on Youtube, Medium, and Substack.`}
+          technologies={['Next.js', 'JSDOM', 'Tailwind', 'MongoDB']}
+          links={[
+            {
+              text: 'Site',
+              href: 'https://latest.link?ref=hunterbecton',
+              color: 'text-[#10b981]',
+            },
+            {
+              text: 'Demo',
+              href: 'https://latest.link/me',
+              color: 'text-[#10b981]',
+            },
+          ]}
+        />
+        <PortfolioSection
           title='LeapPage'
           bgColor='bg-[#3B82F6]'
           selectClass='leappage'
