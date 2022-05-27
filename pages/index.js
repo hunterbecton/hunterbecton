@@ -6,6 +6,26 @@ export default function Home() {
       <Container padding='py-0 sm:py-12 lg:py-28'>
         <About />
         <PortfolioSection
+          title='Skillthrive'
+          bgColor='bg-[#30bc72]'
+          selectClass='skillthrive'
+          img='/skillthrive-logo.png'
+          description={`What started as a fun way to share my knowledge and explore new topics has now grown into a YouTube channel with over 50K subscribers. I've recently launched a new version of the site that allows authors to create lessons and code snippets directly from the site.`}
+          technologies={['Next.js', 'React', 'Stripe', 'Tailwind', 'Supabase']}
+          links={[
+            {
+              text: 'Site',
+              href: 'https://www.skillthrive.com?ref=hunterbecton',
+              color: 'text-[#30bc72]',
+            },
+            {
+              text: 'YouTube',
+              href: 'https://www.youtube.com/skillthrive',
+              color: 'text-[#30bc72]',
+            },
+          ]}
+        />
+        <PortfolioSection
           title='latest.link'
           bgColor='bg-[#10b981]'
           selectClass='latestlink'
@@ -65,33 +85,6 @@ export default function Home() {
               text: 'Zapier',
               href: 'https://zapier.com/apps/mattermix/integrations',
               color: 'text-[#4f46e5]',
-            },
-          ]}
-        />
-        <PortfolioSection
-          title='Skillthrive'
-          bgColor='bg-[#30bc72]'
-          selectClass='skillthrive'
-          img='/skillthrive-logo.png'
-          description={`What started as a fun way to share my knowledge and explore new topics has now grown into a YouTube channel with over 50K subscribers. I've recently launched a new version of the site that features comprehensive written guides that are paired with video and code.`}
-          technologies={[
-            'Next.js',
-            'React',
-            'Stripe',
-            'Tailwind',
-            'MongoDB',
-            'MDX',
-          ]}
-          links={[
-            {
-              text: 'Site',
-              href: 'https://www.skillthrive.com?ref=hunterbecton',
-              color: 'text-[#30bc72]',
-            },
-            {
-              text: 'YouTube',
-              href: 'https://www.youtube.com/skillthrive',
-              color: 'text-[#30bc72]',
             },
           ]}
         />

@@ -16,7 +16,7 @@ export const About = () => {
       <ColumnThree>
         <ColumnTitle>About</ColumnTitle>
         <ColumnText>
-          {`I'm a full-stack JavaScript developer in Atlanta, GA. I love to build web apps with Next.js, React, Express, and MongoDB. I'm currently working on LeapPage full-time and create videos and tutorials on YouTube for fun.`}
+          {`I'm a full-stack JavaScript developer in Atlanta, GA. I'm building a community for anyone to learn how to code on Skillthrive, plus creating other entertaining and educational content for geeks alike.`}
         </ColumnText>
       </ColumnThree>
       <ColumnTwo>
