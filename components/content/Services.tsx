@@ -25,16 +25,19 @@ export const Services = () => {
 
   const services = [
     {
+      id: '9dRe540S',
       title: 'Web design',
       description:
         'I will create pixel-perfect web designs for your business while maintaining an organized design system and brand guidelines.',
     },
     {
+      id: '0SwerDam',
       title: 'Front end development',
       description:
         'I will use React and modern CSS frameworks to create accessible and responsive web designs that your users love.',
     },
     {
+      id: '12QWsldf',
       title: 'Back end development',
       description:
         'I will write the backend code for authentication, APIs, database management, business logic, and much more.',
@@ -62,7 +65,7 @@ export const Services = () => {
           Services
         </motion.h2>
         {services.map((service) => (
-          <ServiceItem service={service} />
+          <ServiceItem key={service.id} service={service} />
         ))}
       </div>
     </section>
