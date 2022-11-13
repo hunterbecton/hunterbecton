@@ -101,9 +101,11 @@ export const Email = () => {
   }, [state]);
 
   return (
-    <section className='mx-auto max-w-6xl px-4 py-16 md:px-8 lg:py-24'>
+    <section
+      ref={sectionRef}
+      className='mx-auto max-w-6xl px-4 py-16 md:px-8 lg:py-24'
+    >
       <motion.button
-        ref={sectionRef}
         type='button'
         initial='hidden'
         animate={ctrls}

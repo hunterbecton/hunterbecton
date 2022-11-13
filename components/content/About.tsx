@@ -48,10 +48,12 @@ export const About = () => {
   }, [ctrls, isInView]);
 
   return (
-    <section className='mx-auto max-w-6xl py-12 px-4 md:py-16 md:px-8 lg:py-24'>
+    <section
+      ref={sectionRef}
+      className='mx-auto max-w-6xl py-12 px-4 md:py-16 md:px-8 lg:py-24'
+    >
       <header className='flex flex-wrap place-content-center lg:justify-between'>
         <motion.h3
-          ref={sectionRef}
           initial='hidden'
           animate={ctrls}
           variants={titleAnimation}

@@ -109,12 +109,13 @@ export const ProjectFeature: FC<ProjectFeatureProps> = ({
   };
 
   return (
-    <section className='relative mx-auto grid max-w-6xl grid-cols-2 gap-x-0 overflow-y-hidden py-12 px-4 md:py-16 md:px-8 lg:gap-x-8 lg:py-24'>
+    <section
+      ref={sectionRef}
+      className='relative mx-auto grid max-w-6xl grid-cols-2 gap-x-0 overflow-y-hidden py-12 px-4 md:py-16 md:px-8 lg:gap-x-8 lg:py-24'
+    >
       <div className='col-span-2 flex flex-col lg:col-span-1'>
         <header className='mb-8 max-w-[28.75rem] md:mb-12 lg:mb-20'>
-          <h3 ref={sectionRef} className='sr-only'>
-            {title}
-          </h3>
+          <h3 className='sr-only'>{title}</h3>
           <motion.button
             initial='hidden'
             animate={ctrls}

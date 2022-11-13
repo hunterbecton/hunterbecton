@@ -54,8 +54,8 @@ export const Services = () => {
   }, [ctrls, isInView]);
 
   return (
-    <section className='py-12 px-4 md:py-16 md:px-8 lg:py-24'>
-      <div ref={sectionRef} className='mx-auto max-w-[32.5rem]'>
+    <section ref={sectionRef} className='py-12 px-4 md:py-16 md:px-8 lg:py-24'>
+      <div className='mx-auto max-w-[32.5rem]'>
         <motion.h2
           initial='hidden'
           animate={ctrls}

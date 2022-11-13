@@ -47,6 +47,7 @@ export const Section: FC<SectionProps> = ({ title, subtitle, tag }) => {
 
   return (
     <motion.div
+      ref={ref}
       initial='hidden'
       variants={sectionAnimation}
       animate={ctrls}
@@ -55,7 +56,6 @@ export const Section: FC<SectionProps> = ({ title, subtitle, tag }) => {
         ease: [0.2, 0.65, 0.3, 0.9],
       }}
       id={tag}
-      ref={ref}
       className='mx-auto flex max-w-6xl justify-between py-6 px-4 md:py-8 md:px-8'
     >
       <p className='text-lg font-bold	uppercase text-stone-500 md:text-xl'>
