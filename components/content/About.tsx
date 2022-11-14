@@ -65,18 +65,18 @@ export const About = () => {
           initial='hidden'
           animate={ctrls}
           variants={descriptionAnimation}
-          className='mt-4 w-full max-w-[32.5rem] text-left text-sm font-normal text-stone-700 md:mt-8 md:text-lg lg:mt-0 lg:w-max lg:max-w-[28.75rem]'
+          className='lg:max-w-[28.75rem mt-4 w-full max-w-[32.5rem] text-left text-sm font-normal text-stone-700 md:mt-8 md:text-lg lg:mt-0 lg:w-max'
         >
           <p>
-            Not having the appropriate design and development resources for your
-            marketing team can leave everyone scrambling to piece together
-            landing pages, site updates, and technical implementations.
+            Without the right design and development resources for your
+            marketing team, everyone is left scrambling to piece together
+            landing pages, site updates, and marketing technology.
           </p>
           <p className='mt-[1.5rem] md:mt-[1.75rem]'>
             Too often, teams overlook brand guidelines and best practices in the
-            frenzy to get campaigns launched. I'm here to help your marketing
-            team stay on brand and write the code to exceed your marketing
-            goals.
+            frenzy to get campaigns launched. I&apos;m here to help your
+            marketing team stay on brand and write the code to exceed your
+            marketing goals.
           </p>
         </motion.div>
       </header>
