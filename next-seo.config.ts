@@ -4,11 +4,11 @@ export const NEXT_SEO_DEFAULT: NextSeoProps = {
   titleTemplate: 'Hunter Becton | %s',
   title: 'Web designer and developer in Atlanta, GA',
   description:
-    'Web designer and developer in Atlanta, Georgia. I can help your team design memorable, user-friendly web experiences and write the code to bring them to life.',
+    'I am a web designer and developer that can help your marketing team design and code memorable, user-friendly web experiences and implement your marketing tech stack.',
   openGraph: {
     title: 'Web designer and developer in Atlanta, GA',
     description:
-      'Web designer and developer in Atlanta, Georgia. I can help your team design memorable, user-friendly web experiences and write the code to bring them to life.',
+      'I am a web designer and developer that can help your marketing team design and code memorable, user-friendly web experiences and implement your marketing tech stack.',
     type: 'website',
     locale: 'en_US',
     site_name: 'Hunter Becton',

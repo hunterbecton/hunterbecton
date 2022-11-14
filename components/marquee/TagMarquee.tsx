@@ -1,16 +1,15 @@
 export const TagMarquee = () => {
   const tags = [
-    'typescript',
-    'next.js',
-    'tailwind css',
-    'express',
-    'mongodb',
-    'supabase',
-    'postgresql',
-    'figma',
-    'node',
-    'react',
-    'framer motion',
+    'marketing automation',
+    'headless cms',
+    'web design',
+    'front end development',
+    'marketing analytics',
+    'event tracking',
+    'landing pages',
+    'content management',
+    'email marketing',
+    'back end development',
   ];
 
   return (

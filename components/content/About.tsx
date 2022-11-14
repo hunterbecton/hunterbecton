@@ -59,7 +59,7 @@ export const About = () => {
           variants={titleAnimation}
           className='w-full max-w-[32.5rem] text-2xl font-bold text-stone-900 md:text-4xl lg:w-max lg:max-w-[28.75rem]'
         >
-          Full stack developer with a passion for web design
+          Remove design and technical blockers.
         </motion.h3>
         <motion.div
           initial='hidden'
@@ -68,13 +68,15 @@ export const About = () => {
           className='mt-4 w-full max-w-[32.5rem] text-left text-sm font-normal text-stone-700 md:mt-8 md:text-lg lg:mt-0 lg:w-max lg:max-w-[28.75rem]'
         >
           <p>
-            I can help you or your team design memorable, user-friendly web
-            experiences and write the code to bring them to life.
+            Not having the appropriate design and development resources for your
+            marketing team can leave everyone scrambling to piece together
+            landing pages, site updates, and technical implementations.
           </p>
           <p className='mt-[1.5rem] md:mt-[1.75rem]'>
-            In my free time, I share my knowledge with aspiring developers
-            through blog posts and video tutorials so others can learn how to
-            code.
+            Too often, teams overlook brand guidelines and best practices in the
+            frenzy to get campaigns launched. I'm here to help your marketing
+            team stay on brand and write the code to exceed your marketing
+            goals.
           </p>
         </motion.div>
       </header>

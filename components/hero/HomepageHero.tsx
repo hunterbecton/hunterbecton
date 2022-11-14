@@ -23,10 +23,23 @@ export const HomepageHero: FC<HomepageHeroProps> = ({ projects }) => {
 
   return (
     <section className='mx-auto max-w-6xl py-12 px-4 md:py-16 md:px-8 lg:py-24'>
-      <AnimatedTitle
-        text='I design and code for the web'
-        styles='mx-auto max-w-[32.5rem] text-center text-4xl font-bold text-stone-900 md:text-6xl lg:mx-0 lg:max-w-[38.25rem] lg:text-left lg:text-7xl'
-      />
+      <motion.h2
+        initial={{
+          y: '100%',
+          opacity: 0,
+        }}
+        animate={{
+          y: 0,
+          opacity: 1,
+        }}
+        transition={{
+          duration: 1.2,
+          ease: [0.2, 0.65, 0.3, 0.9],
+        }}
+        className='mx-auto max-w-[32.5rem] text-center text-3xl font-bold text-stone-900 md:text-4xl lg:mx-0 lg:max-w-2xl lg:text-left lg:text-5xl'
+      >
+        I help marketing teams with web design and development.
+      </motion.h2>
       <div className='mt-8 flex flex-wrap justify-between gap-x-8 md:mt-10 lg:mt-12'>
         <div className='mx-auto h-[21.25rem] w-[32.5rem] overflow-y-hidden lg:mx-0'>
           <motion.div
@@ -41,6 +54,7 @@ export const HomepageHero: FC<HomepageHeroProps> = ({ projects }) => {
             transition={{
               duration: 1.2,
               ease: [0.2, 0.65, 0.3, 0.9],
+              delay: 0.2,
             }}
             className='relative h-full w-full'
           >

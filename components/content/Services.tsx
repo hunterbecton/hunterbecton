@@ -28,19 +28,19 @@ export const Services = () => {
       id: '9dRe540S',
       title: 'Web design',
       description:
-        'I will create pixel-perfect web designs for your business while maintaining an organized design system and brand guidelines.',
+        'I create pixel-perfect, memorable web designs for your marketing campaigns and website while adhering to brand guidelines.',
     },
     {
       id: '0SwerDam',
-      title: 'Front end development',
+      title: 'Full stack development',
       description:
-        'I will use React and modern CSS frameworks to create accessible and responsive web designs that your users love.',
+        'I write code for all your marketing needs while implementing systems to empower your team to manage content and make quick updates.',
     },
     {
       id: '12QWsldf',
-      title: 'Back end development',
+      title: 'Marketing engineering',
       description:
-        'I will write the backend code for authentication, APIs, database management, business logic, and much more.',
+        'I automate marketing and sales tasks, ensure every valuable metric is tracked, and implement your current marketing tech stack.',
     },
   ];
 

@@ -33,7 +33,7 @@ export default function Homepage() {
       projectId: 'k3iZKEvW',
       title: 'Skillthrive',
       description:
-        'Test your web development skills with code challenges and connect with a community of developers.',
+        'Community website for web developers featuring subscriptions, member-only content, and custom CMS.',
       images: [
         {
           id: 'QfX47eZF',
@@ -70,7 +70,7 @@ export default function Homepage() {
       ],
       details: [
         { title: 'Tech', details: 'Lambda, Next.js' },
-        { title: 'Role', details: 'Design, development' },
+        { title: 'Role', details: 'Design, Development' },
         { title: 'Year', details: '2020 – Present' },
       ],
       link: 'https://www.skillthrive.com?ref=hunterbecton',
@@ -79,7 +79,7 @@ export default function Homepage() {
       projectId: 'yZQfCT7t',
       title: 'LeapPage',
       description:
-        'Use a simple website builder to create custom landing pages for account-based marketing.',
+        'Drag-and-drop website builder to create custom landing pages for account-based marketing.',
       images: [
         {
           id: 'WGGHV8tn',
@@ -116,7 +116,7 @@ export default function Homepage() {
       ],
       details: [
         { title: 'Tech', details: 'Figma, Next.js, Tailwind' },
-        { title: 'Role', details: 'Design, development' },
+        { title: 'Role', details: 'Design, Development' },
         { title: 'Year', details: '2021' },
       ],
       link: 'https://www.leappage.com?ref=hunterbecton',
@@ -125,7 +125,7 @@ export default function Homepage() {
       projectId: '6phudXXs',
       title: 'Mattermix',
       description:
-        'Dynamically create marketing images at scale with HTML and CSS using a  REST API.',
+        'Automate marketing image creation at scale with HTML and CSS image templates.',
       images: [
         {
           id: 'gYVRuX2y',
@@ -157,7 +157,7 @@ export default function Homepage() {
       ],
       details: [
         { title: 'Tech', details: 'Figma, Next.js, Tailwind' },
-        { title: 'Role', details: 'Design, development' },
+        { title: 'Role', details: 'Design, Development' },
         { title: 'Year', details: '2021' },
       ],
       link: 'https://www.mattermix.com?ref=hunterbecton',
