@@ -37,7 +37,7 @@ export const Services = () => {
     {
       id: '12QWsldf',
       title: 'Content marketing',
-      description: `I craft high-quality, educational content that resonates with developers, driving engagement and aligning your brand’s voice with your technical audience.`,
+      description: `I craft high-quality, educational content that resonates with developers, driving engagement and aligning your brand's voice with your technical audience.`,
     },
   ];
 
@@ -59,7 +59,7 @@ export const Services = () => {
           variants={titleAnimation}
           className="text-3xl font-bold text-stone-900 md:text-4xl"
         >
-          Services
+          Skillset
         </motion.h2>
         {services.map((service) => (
           <ServiceItem key={service.id} service={service} />
