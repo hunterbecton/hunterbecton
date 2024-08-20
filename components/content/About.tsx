@@ -50,33 +50,28 @@ export const About = () => {
   return (
     <section
       ref={sectionRef}
-      className='mx-auto max-w-6xl py-12 px-4 md:py-16 md:px-8 lg:py-24'
+      className="mx-auto max-w-6xl py-12 px-4 md:py-16 md:px-8 lg:py-24"
     >
-      <header className='flex flex-wrap place-content-center lg:justify-between'>
+      <header className="flex flex-wrap place-content-center lg:justify-between">
         <motion.h3
-          initial='hidden'
+          initial="hidden"
           animate={ctrls}
           variants={titleAnimation}
-          className='w-full max-w-[32.5rem] text-2xl font-bold text-stone-900 md:text-4xl lg:w-max lg:max-w-[28.75rem]'
+          className="w-full max-w-[32.5rem] text-2xl font-bold text-stone-900 md:text-4xl lg:w-max lg:max-w-[28.75rem]"
         >
-          Remove design and technical blockers.
+          It&apos;s nice to meet you!
         </motion.h3>
         <motion.div
-          initial='hidden'
+          initial="hidden"
           animate={ctrls}
           variants={descriptionAnimation}
-          className='lg:max-w-[28.75rem mt-4 w-full max-w-[32.5rem] text-left text-sm font-normal text-stone-700 md:mt-8 md:text-lg lg:mt-0 lg:w-max'
+          className="lg:max-w-[28.75rem mt-4 w-full max-w-[32.5rem] text-left text-sm font-normal text-stone-700 md:mt-8 md:text-lg lg:mt-0 lg:w-max"
         >
           <p>
-            Without the right design and development resources for your
-            marketing team, everyone is left scrambling to piece together
-            landing pages, site updates, and marketing technology.
-          </p>
-          <p className='mt-[1.5rem] md:mt-[1.75rem]'>
-            Too often, teams overlook brand guidelines and best practices in the
-            frenzy to get campaigns launched. I&apos;m here to help your
-            marketing team stay on brand and write the code to exceed your
-            marketing goals.
+            I am a web developer and content marketer dedicated to crafting
+            exceptional developer experiences. I specialize in creating
+            engaging, educational content that bridges the gap between marketing
+            and technology.
           </p>
         </motion.div>
       </header>

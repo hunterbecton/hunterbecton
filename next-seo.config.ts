@@ -2,13 +2,11 @@ import type { NextSeoProps } from 'next-seo';
 
 export const NEXT_SEO_DEFAULT: NextSeoProps = {
   titleTemplate: 'Hunter Becton | %s',
-  title: 'Web designer and developer in Atlanta, GA',
-  description:
-    'I am a web designer and developer that can help your marketing team design and code memorable, user-friendly web experiences and implement your marketing tech stack.',
+  title: 'Web developer and content marketer in Atlanta, GA',
+  description: `Web developer and content marketer focused on crafting exceptional developer experiences and bridging the gap between marketing and technology.`,
   openGraph: {
-    title: 'Web designer and developer in Atlanta, GA',
-    description:
-      'I am a web designer and developer that can help your marketing team design and code memorable, user-friendly web experiences and implement your marketing tech stack.',
+    title: 'Web developer and content marketer in Atlanta, GA',
+    description: `Web developer and content marketer focused on crafting exceptional developer experiences and bridging the gap between marketing and technology.`,
     type: 'website',
     locale: 'en_US',
     site_name: 'Hunter Becton',
@@ -17,7 +15,7 @@ export const NEXT_SEO_DEFAULT: NextSeoProps = {
         url: `https://hunterbecton.com/social.jpg`,
         width: 1200,
         height: 600,
-        alt: 'Web designer and developer in Atlanta, GA',
+        alt: 'Web developer and content marketer in Atlanta, GA',
       },
     ],
   },

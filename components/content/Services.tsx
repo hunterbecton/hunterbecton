@@ -26,21 +26,18 @@ export const Services = () => {
   const services = [
     {
       id: '9dRe540S',
-      title: 'Web design',
-      description:
-        'I create pixel-perfect, memorable web designs for your marketing campaigns and website while adhering to brand guidelines.',
+      title: 'Developer experience',
+      description: `I enhance the developer journey by creating intuitive tools, clear documentation, and streamlined workflows that improve productivity and foster community engagement.`,
     },
     {
       id: '0SwerDam',
-      title: 'Full stack development',
-      description:
-        'I write code for all your marketing needs while implementing systems to empower your team to manage content and make quick updates.',
+      title: 'Full-stack development',
+      description: `I build robust, scalable web applications that meet your marketing goals, seamlessly integrating front-end and back-end systems to empower your team with efficient, manageable solutions.`,
     },
     {
       id: '12QWsldf',
-      title: 'Marketing engineering',
-      description:
-        'I automate marketing and sales tasks, ensure every valuable metric is tracked, and implement your current marketing tech stack.',
+      title: 'Content marketing',
+      description: `I craft high-quality, educational content that resonates with developers, driving engagement and aligning your brand’s voice with your technical audience.`,
     },
   ];
 
@@ -54,13 +51,13 @@ export const Services = () => {
   }, [ctrls, isInView]);
 
   return (
-    <section ref={sectionRef} className='py-12 px-4 md:py-16 md:px-8 lg:py-24'>
-      <div className='mx-auto max-w-[32.5rem]'>
+    <section ref={sectionRef} className="py-12 px-4 md:py-16 md:px-8 lg:py-24">
+      <div className="mx-auto max-w-[32.5rem]">
         <motion.h2
-          initial='hidden'
+          initial="hidden"
           animate={ctrls}
           variants={titleAnimation}
-          className='text-3xl font-bold text-stone-900 md:text-4xl'
+          className="text-3xl font-bold text-stone-900 md:text-4xl"
         >
           Services
         </motion.h2>
